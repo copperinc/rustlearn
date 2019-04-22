@@ -14,7 +14,6 @@ exclude = [
 	"examples/*",
 	"test_data/*",
 ]
-links = "libsvm"
 build = "build.rs"
 
 [dependencies]
@@ -36,3 +35,4 @@ time = "0.1"
 [features]
 all_tests = []
 bench = []
+svm = []
